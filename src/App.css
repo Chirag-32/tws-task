@@ -1,0 +1,177 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.ui.placeholder.segment{
+  margin-top: 8rem;
+}
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.ui.cards > .card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.ui.cards > .card .meta.price > a {
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.ui.menu.fixed {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.ui.grid.container {
+  margin-top: 45px;
+}
+
+.ui.grid > .row {
+  background: #fff;
+}
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
+
+
+.cart-btn{
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cart-btn:disabled{
+  cursor: not-allowed;
+  background-color: #fff;
+  color: #000;
+}
+
+
+ /* .phone-input .PhoneInput {
+    border: 0;
+    border-bottom: 2px solid #DCDBDD;
+    border-radius: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    padding: 12px 0;}
+    
+    .phone-input .PhoneInputInput {
+      border: 0;}
+      .phone-input :focus-visible {
+        outline: none;
+      }
+  
+      .phone-input .input-label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #f6f6f6;
+    position: absolute;
+    top: 12px;
+    left: 46px;
+    pointer-events: none;
+    transition: 0.2s ease all;
+  }
+  .phone-input :focus-within 
+    .input-label {
+      top: -8px;
+      font-size: 12px;
+      line-height: 17px;
+      color: #f6f6f6;
+    
+  }
+  .phone-input .filled .input-label {
+      top: -8px;
+      font-size: 12px;
+      line-height: 17px;
+      color: #f6f6f6;
+    
+  }  */
+  .ui.menu>.container{
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ui.menu>.container h2:first-child{
+    margin-bottom: 10px;
+  }
+  .ui.menu>.container h2:last-child{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.error-text{
+  color: red;
+  font-size: 16px;
+  font-weight: 400;
+}
+.phone-input .PhoneInputCountry {
+  display: none;
+}
